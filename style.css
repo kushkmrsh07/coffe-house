@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(165, 42, 42, 0.2);
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   overflow-x: hidden;
+}
+.navbar {
+    background: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    height: 300px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 8px black;
+}
+.navbar input{
+    background-color: rgb(99, 18, 18,1);
+    width: 70%;
+    height: 13%;
+    color:white;
+    border: none;
+    border-radius:10px;
+    padding: 10px;
+    position: sticky;
+    top:9.5% ;
+    left: 15%;
+    margin-bottom:0;
+}
+
+
+
+main{
+    display:block;
+}
+.CoffeeImg{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.CoffeeImg > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: rgba(0, 0, 0, 0.8);
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
+img{
+   height: 100%;
+   width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black; 
+}
+img:hover{
+    height: 155px;
+    width: 155px;
+    box-shadow: 0px 15px 15px black;
+}
+.box-1{
+    width: 88%;
+    background-color: rgb(165, 42, 42, 0.3);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+    margin: auto;
+    margin-block: 8px;
+    align-items: center;
+    text-align:left;
+    padding: 15px;
+}
+.box-1 > h1{
+    color: brown;
+    margin-left:15px;
+    margin-bottom: -15px;
+    padding: 0;
+    font-weight: bold;
+}
+.box-1 > p{
+    color: brown;
+    width: 97%;
+    display: block;
+    margin-left: 15px;
+}
+.box-2{
+    width:88%;
+    margin:auto;
+    margin-block:50px;
+    background-color:#D8A0A0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+}
+ol{
+    color:brown;
+    padding: 1px;
+    margin:2px;
+}
+li{
+    padding: 10px;
+    padding-top: 5px;
+}
+ol>li {
+    padding: 5px;
+    margin-left:10px;
+}
+.box-2 > p{
+    color: brown;
+    width: 97%;
+    display: block;
+    margin-left: 15px;
+}
+.box-2 > h1{
+    color: brown;
+    margin-left:13px;
+    margin-bottom: -2px;
+    padding: 0;
+    font-weight: bold;
+}
